@@ -1,53 +1,56 @@
-# Web Development Course Portfolio
+# ওয়েব ডেভেলপমেন্ট কোর্স পোর্টফোলিও
 
-A comprehensive web development course portfolio built with React, Vite, and Chakra UI. This project showcases various assignments and projects completed throughout the course.
+React, Vite, এবং Chakra UI ব্যবহার করে তৈরি একটি পূর্ণাঙ্গ ওয়েব ডেভেলপমেন্ট কোর্স পোর্টফোলিও। এই প্রজেক্টে কোর্সের বিভিন্ন অ্যাসাইনমেন্ট এবং প্রজেক্ট প্রদর্শিত হবে।
 
-## Features
+## বৈশিষ্ট্য
 
-- Modern React with Vite for fast development
-- Chakra UI for beautiful, responsive components
-- React Router for navigation
-- Comprehensive course structure display
-- Mobile-responsive design
+- দ্রুত ডেভেলপমেন্টের জন্য Modern React with Vite
+- সুন্দর, রেসপন্সিভ কম্পোনেন্টের জন্য Chakra UI
+- নেভিগেশনের জন্য React Router
+- পূর্ণাঙ্গ কোর্স স্ট্রাকচার প্রদর্শন
+- মোবাইল-রেসপন্সিভ ডিজাইন
 
-## Getting Started
+## শুরু করার পদ্ধতি
 
-1. Clone the repository
-2. Install dependencies:
+1. রিপোজিটরি ক্লোন করুন
+   ```bash
+   git clone https://github.com/1yakub/web-dev-course-portfolio.git
+   ```
+2. ডিপেন্ডেন্সি ইনস্টল করুন:
    ```bash
    npm install
    ```
-3. Run the development server:
+3. ডেভেলপমেন্ট সার্ভার চালু করুন:
    ```bash
    npm run dev
    ```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
+4. ব্রাউজারে [http://localhost:5173](http://localhost:5173) ওপেন করুন
 
-## Project Structure
+## প্রজেক্ট স্ট্রাকচার
 
-- `src/App.jsx` - Main application component
-- `src/index.css` - Global styles
-- Additional components will be added as the course progresses
+- `src/App.jsx` - মূল অ্যাপ্লিকেশন কম্পোনেন্ট
+- `src/index.css` - গ্লোবাল স্টাইল
+- কোর্স অগ্রগতির সাথে সাথে আরও কম্পোনেন্ট যোগ করা হবে
 
-## Technologies Used
+## ব্যবহৃত প্রযুক্তি
 
 - React 18
 - Vite
 - Chakra UI
 - React Router
-- Emotion (for styling)
-- Framer Motion (for animations)
+- Emotion (স্টাইলিং এর জন্য)
+- Framer Motion (অ্যানিমেশনের জন্য)
 
-## Course Overview
+## কোর্স ওভারভিউ
 
-The course is structured into 4 weeks:
-1. Foundations (HTML & CSS)
-2. Layout & Design
-3. JavaScript Essentials
-4. Real-world Applications
+কোর্সটি ৪টি সপ্তাহে বিভক্ত:
+1. ফাউন্ডেশন (HTML এবং CSS)
+2. লেআউট এবং ডিজাইন
+3. জাভাস্ক্রিপ্ট এসেনশিয়ালস
+4. রিয়েল ওয়ার্ল্ড অ্যাপ্লিকেশন
 
-Each week contains various assignments and projects that will be showcased in this portfolio.
+প্রতি সপ্তাহে বিভিন্ন অ্যাসাইনমেন্ট এবং প্রজেক্ট থাকবে যা এই পোর্টফোলিওতে প্রদর্শিত হবে।
 
-## Deployment
+## ডেপ্লয়মেন্ট
 
-This project is deployed on Vercel and automatically updates with each push to the main branch.
+এই প্রজেক্টটি Vercel-এ ডেপ্লয় করা হয়েছে এবং main ব্রাঞ্চে পুশ করার সাথে সাথে স্বয়ংক্রিয়ভাবে আপডেট হবে।

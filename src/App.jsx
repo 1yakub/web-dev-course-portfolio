@@ -3,43 +3,93 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 const weeks = [
   {
-    title: "Week 1: Foundations",
+    title: "সপ্তাহ ১: ফাউন্ডেশন",
     sections: [
       {
-        title: "HTML Basics (Days 1-3)",
+        title: "HTML বেসিক (দিন ১-৩)",
         assignments: [
-          "Create a personal portfolio page structure",
-          "Building semantic HTML documents",
-          "Convert a given design into HTML structure"
+          "পার্সোনাল পোর্টফোলিও পেজের কাঠামো তৈরি",
+          "Semantic HTML ডকুমেন্ট তৈরি করা",
+          "একটি ডিজাইন HTML স্ট্রাকচারে রূপান্তর করা"
         ]
       },
       {
-        title: "CSS Fundamentals (Days 4-7)",
+        title: "CSS ফান্ডামেন্টালস (দিন ৪-৭)",
         assignments: [
-          "Style your portfolio page",
-          "Implementing responsive designs",
-          "Create a responsive product landing page"
+          "পোর্টফোলিও পেজে স্টাইল যোগ করা",
+          "রেসপন্সিভ ডিজাইন বাস্তবায়ন",
+          "রেসপন্সিভ প্রোডাক্ট ল্যান্ডিং পেজ তৈরি"
         ]
       }
     ]
   },
   {
-    title: "Week 2: Layout & Design",
+    title: "সপ্তাহ ২: লেআউট এবং ডিজাইন",
     sections: [
       {
-        title: "CSS Flexbox & Grid (Days 8-10)",
+        title: "CSS Flexbox এবং Grid (দিন ৮-১০)",
         assignments: [
-          "Build a service marketplace layout",
-          "Common website layouts",
-          "Create a responsive dashboard"
+          "সার্ভিস মার্কেটপ্লেস লেআউট তৈরি",
+          "কমন ওয়েবসাইট লেআউট প্র্যাকটিস",
+          "রেসপন্সিভ ড্যাশবোর্ড তৈরি"
         ]
       },
       {
-        title: "CSS Frameworks & Bootstrap (Days 11-14)",
+        title: "CSS Frameworks এবং Bootstrap (দিন ১১-১৪)",
         assignments: [
-          "Convert previous projects to Bootstrap",
-          "Building components",
-          "Create a freelancer profile page"
+          "আগের প্রজেক্টগুলো Bootstrap এ রূপান্তর",
+          "কম্পোনেন্ট তৈরি করা",
+          "ফ্রিল্যান্সার প্রোফাইল পেজ তৈরি"
+        ]
+      }
+    ]
+  },
+  {
+    title: "সপ্তাহ ৩: জাভাস্ক্রিপ্ট এসেনশিয়ালস",
+    sections: [
+      {
+        title: "জাভাস্ক্রিপ্ট বেসিক (দিন ১৫-১৮)",
+        assignments: [
+          "ফর্ম ভ্যালিডেশন",
+          "DOM ম্যানিপুলেশন প্র্যাকটিস",
+          "ইন্টারেক্টিভ প্রাইসিং ক্যালকুলেটর"
+        ]
+      },
+      {
+        title: "জাভাস্ক্রিপ্ট অ্যাডভান্সড (দিন ১৯-২১)",
+        assignments: [
+          "API ইন্টিগ্রেশন",
+          "JSON নিয়ে কাজ করা",
+          "API ব্যবহার করে ওয়েদার উইজেট তৈরি"
+        ]
+      }
+    ]
+  },
+  {
+    title: "সপ্তাহ ৪: রিয়েল ওয়ার্ল্ড অ্যাপ্লিকেশন",
+    sections: [
+      {
+        title: "মার্কেটপ্লেস প্রিপারেশন (দিন ২২-২৪)",
+        assignments: [
+          "৩টি ভিন্ন ল্যান্ডিং পেজ তৈরি",
+          "স্পিড অপটিমাইজেশন",
+          "সকল প্রজেক্ট নিয়ে পোর্টফোলিও ওয়েবসাইট"
+        ]
+      },
+      {
+        title: "AI টুলস ইন্টিগ্রেশন (দিন ২৫-২৭)",
+        assignments: [
+          "কোড অপটিমাইজেশনে AI ব্যবহার",
+          "ওয়েব ডেভেলপমেন্টে প্রম্পট ইঞ্জিনিয়ারিং",
+          "AI সহায়তায় রেসপন্সিভ ডিজাইন"
+        ]
+      },
+      {
+        title: "ফ্রিল্যান্সিং প্রস্তুতি (দিন ২৮-৩০)",
+        assignments: [
+          "মার্কেটপ্লেস প্রোফাইল তৈরি",
+          "প্রজেক্ট এস্টিমেশন প্র্যাকটিস",
+          "ক্লায়েন্ট প্রজেক্ট সিমুলেশন"
         ]
       }
     ]
@@ -55,10 +105,10 @@ function App() {
             <VStack spacing={8} align="stretch">
               <Box textAlign="center" py={8}>
                 <Heading as="h1" size="2xl" mb={4}>
-                  Web Development Course Portfolio
+                  ওয়েব ডেভেলপমেন্ট কোর্স পোর্টফোলিও
                 </Heading>
                 <Text fontSize="xl" color="gray.600">
-                  A comprehensive journey through modern web development
+                  আধুনিক ওয়েব ডেভেলপমেন্টের একটি পূর্ণাঙ্গ যাত্রা
                 </Text>
               </Box>
 
